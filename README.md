@@ -1,4 +1,4 @@
-kryptokrona-nodejs-pool
+nolanium-nodejs-pool
 ======================
 
 High performance Node.js (with native C addons) mining pool for CryptoNote based coins. Comes with lightweight example front-end script which uses the pool's AJAX API. Support for Cryptonight (Original, Monero v7, Stellite v7), Cryptonight Light (Original, Aeon v7, IPBC) Cryptonight Fast (Electronero/Crystaleum), and Cryptonight Heavy (Sumokoin) algorithms.
@@ -154,15 +154,15 @@ sudo su - your-user
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/kryptokrona/kryptokrona-nodejs-pool.git pool
-cd kryptokrona-nodejs-pool
+git clone https://github.com/NolaniumProject/nolanium-nodejs-pool.git pool
+cd nolanium-nodejs-pool
 
 npm i
 ```
 
 #### 2) Configuration
 
-Copy the `config_examples/kryptokrona.json` file to `config.json` then overview each options and change any to match your preferred setup.
+Edit the `config.json` file
 
 Explanation for each field:
 ```javascript
