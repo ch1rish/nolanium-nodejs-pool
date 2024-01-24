@@ -32,7 +32,7 @@
 		"poolAddress": "<POOL_WALLET_ADDRESS>",
 		"intAddressPrefix": null,
 		"blockRefreshInterval": 600,
-		"minerTimeout": 600,
+		"minerTimeout": 1200,
 		"sslCert": "<SSL_CERT>",
 		"sslKey": "<SSL_KEY>",
 		"sslCA": "<SSL_CA>",
@@ -61,7 +61,7 @@
 		"varDiff": {
 			"minDiff": 5000,
 			"maxDiff": 100000000,
-			"targetTime": 30,
+			"targetTime": 15,
 			"retargetTime": 30,
 			"variancePercent": 30,
 			"maxJump": 100
@@ -80,7 +80,7 @@
 			}
 		],
 		"fixedDiff": {
-			"enabled": true,
+			"enabled": false,
 			"addressSeparator": "."
 		},
 		"shareTrust": {
@@ -104,7 +104,7 @@
 		}
 	},
 	"payments": {
-		"enabled": true,
+		"enabled": false,
 		"interval": 1800,
 		"maxAddresses": 50,
 		"mixin": 0,
@@ -120,7 +120,7 @@
 		"enabled": true,
 		"interval": 10,
 		"depth": 10,
-		"poolFee": 1,
+		"poolFee": 100,
 		"devDonation": 0,
 		"networkFee": 0,
 		"fixBlockHeightRPC": false,
