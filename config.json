@@ -104,23 +104,23 @@
 		}
 	},
 	"payments": {
-		"enabled": false,
+		"enabled": true,
 		"interval": 1800,
-		"maxAddresses": 50,
+		"maxAddresses": 15,
 		"mixin": 0,
 		"priority": 0,
-		"transferFee": 5000,
+		"transferFee": 50000,
 		"dynamicTransferFee": true,
 		"minerPayFee": true,
-		"minPayment": 1000000,
-		"maxTransactionAmount": 30000000000,
-		"denomination": 1
+		"minPayment": 100000,
+		"maxTransactionAmount": 10000000000,
+		"denomination": 1000
 	},
 	"blockUnlocker": {
 		"enabled": true,
 		"interval": 10,
 		"depth": 10,
-		"poolFee": 100,
+		"poolFee": 0,
 		"devDonation": 0,
 		"networkFee": 0,
 		"fixBlockHeightRPC": false,
